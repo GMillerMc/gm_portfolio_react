@@ -1,13 +1,13 @@
 .text-animate {
-    display: inline-block; //change to put on same line
+    display: inline-flex; //change to put on same line
     opacity: 0;
     animation: bounceIn 1s 1s;
     animation-fill-mode: forwards;
-    min-width: 10px; 
+    min-width: 0.625rem; 
 }
 .text-animate-hover {
-        min-width: 10px;
-        display: inline-block;
+        min-width: 0.625rem;
+        display: inline-flex;
         animation-fill-mode: both;
 
         &:hover {

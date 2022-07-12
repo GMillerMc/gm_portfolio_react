@@ -20,14 +20,14 @@
 }
 
 .bottom-tag-html {
-    margin-left: -20px;
+    margin-left: -1.25rem;
 }
 
 .container {
     width: 100%;
     will-change: contents;
     height: 90%;
-    min-height: 566px;
+    min-height: 35.375rem;
     position: absolute;
     opacity: 0;
     top: 5%;
@@ -42,7 +42,7 @@
 .contact-page {
     .text-zone {
         position: absolute;
-        left: 10%;
+        left: 20%;
         top: 50%;
         transform: translateY(-50%);
         width: 35%;
@@ -52,42 +52,42 @@
         }
 
         h1 {
-            font-size: 53px;
+            font-size: 3.25rem;
             font-family: 'Coolvetica';
             color: cyan;
             font-weight: 400;
             margin-top: 0;
             position: relative;
-            margin-bottom: 40px;
-            left: 10px;
+            margin-bottom: 2.5rem;
+            left: -0.625rem;
 
             &::before {
                 content: '<h1>';
                 font-family: 'La Belle Aurore';
-                font-size: 18px;
+                font-size: 1.125rem;
                 position: absolute;
-                margin-top: -10px;
-                left: -10px;
+                margin-top:-0.625rem;
+                left: -0.625rem;
                 opacity: 0.6;
-                line-height: 18px;
+                line-height: 1.125rem;
             }
 
             &::after {
                 content: '</h1>';
                 font-family: 'La Belle Aurore';
-                font-size: 18px;
-                line-height: 18px;
+                font-size: 1.125rem;
+                line-height: 1.125rem;
                 position: absolute;
-                left: -30px;
-                bottom: -20px;
-                margin-left: 20px;
+                left: -1.875rem;
+                bottom: -1.25rem;
+                margin-left: 1.25rem;
                 opacity: 0.6;
             }
         }
 
         p {
-            font-style: 13px;
-            font-size: 13px;
+            font-style: 0.813rem;
+            font-size: 0.813rem;
             color: #fff;
             font-family: sans-serif;
             font-weight: 500;

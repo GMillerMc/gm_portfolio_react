@@ -3,7 +3,7 @@
     .text-zone {
         position: absolute;
         left: 14%;
-        top: 30%;
+        top: 40%;
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
@@ -11,7 +11,7 @@
 
     h1 {
         color: #fff;
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
@@ -56,7 +56,7 @@ h2 {
     color: #8d8d8d;
     margin-top: 1.25rem;
     font-weight: 400;
-    font-size: 0.688rem;
+    font-size: 1rem;
     font-family: sans-serif;
     letter-spacing: 0.188rem;
     animation: fadeIn 1s 1.8s backwards;
@@ -64,7 +64,7 @@ h2 {
 
 .flat-button {
     color: cyan;
-    font-size: 0.813rem;
+    font-size: 1rem;
     font-weight: 400;
     font-family: sans-serif;
     text-decoration: none;

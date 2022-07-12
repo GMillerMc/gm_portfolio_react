@@ -53,7 +53,7 @@ const Home = () => {
                 </h1>
                 <br />
                 
-                <h2>Full Stack Developer / Javascript & Python / Django & Flask / React</h2>
+                <h2> Javascript / React / Python / Django / Flask </h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo />
